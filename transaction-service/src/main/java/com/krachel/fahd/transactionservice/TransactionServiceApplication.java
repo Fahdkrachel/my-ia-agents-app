@@ -1,9 +1,9 @@
-package net.youssfi.transactionservice;
+package com.krachel.fahd.transactionservice;
 
-import net.youssfi.transactionservice.entities.Transaction;
-import net.youssfi.transactionservice.entities.TransactionStatus;
-import net.youssfi.transactionservice.entities.TransactionType;
-import net.youssfi.transactionservice.repository.TransactionRepository;
+import com.krachel.fahd.transactionservice.entities.Transaction;
+import com.krachel.fahd.transactionservice.entities.TransactionStatus;
+import com.krachel.fahd.transactionservice.entities.TransactionType;
+import com.krachel.fahd.transactionservice.repository.TransactionRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

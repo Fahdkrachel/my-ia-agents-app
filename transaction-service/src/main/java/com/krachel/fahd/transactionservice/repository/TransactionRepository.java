@@ -1,7 +1,7 @@
-package net.youssfi.transactionservice.repository;
+package com.krachel.fahd.transactionservice.repository;
 
-import net.youssfi.transactionservice.entities.Transaction;
-import net.youssfi.transactionservice.entities.TransactionStatus;
+import com.krachel.fahd.transactionservice.entities.Transaction;
+import com.krachel.fahd.transactionservice.entities.TransactionStatus;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

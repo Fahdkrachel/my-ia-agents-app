@@ -1,4 +1,4 @@
-package net.youssfi;
+package com.krachel.fahd;
 
 public class Main {
     public static void main(String[] args) {

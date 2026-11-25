@@ -1,7 +1,7 @@
-package net.youssfi.transactionservice.web;
+package com.krachel.fahd.transactionservice.web;
 
-import net.youssfi.transactionservice.entities.Transaction;
-import net.youssfi.transactionservice.repository.TransactionRepository;
+import com.krachel.fahd.transactionservice.entities.Transaction;
+import com.krachel.fahd.transactionservice.repository.TransactionRepository;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

@@ -1,4 +1,4 @@
-package net.youssfi.transactionservice.entities;
+package com.krachel.fahd.transactionservice.entities;
 
 import jakarta.persistence.*;
 import lombok.*;
