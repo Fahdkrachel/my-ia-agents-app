@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import reactor.core.publisher.Flux;
 
 @RestController
 @CrossOrigin("*")
@@ -16,7 +17,7 @@ public class AiAgentController {
         this.transactionIaAgent = transactionIaAgent;
     }
     @GetMapping("/askAgent")
-    public String chat(@RequestParam(defaultValue = "Bonjour") String question){
+    public Flux<String> chat(@RequestParam(defaultValue = "Bonjour") String question){
         return transactionIaAgent.chat(question);
     }
 }
