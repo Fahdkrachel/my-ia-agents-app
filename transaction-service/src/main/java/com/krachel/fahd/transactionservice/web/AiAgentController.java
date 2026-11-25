@@ -15,7 +15,7 @@ public class AiAgentController {
     public AiAgentController(TransactionIaAgent transactionIaAgent) {
         this.transactionIaAgent = transactionIaAgent;
     }
-    @GetMapping("/chat")
+    @GetMapping("/askAgent")
     public String chat(@RequestParam(defaultValue = "Bonjour") String question){
         return transactionIaAgent.chat(question);
     }
